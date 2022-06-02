@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  width: 50%;
+  height: 400px;
+  margin: 30px auto;
+  border: 2px solid black;
+  
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.input-gender input, .checkbox input {
+  cursor: pointer;
+}
+
+.input-fields {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.input-fields div {
+  margin-left: 10px;
+}
+
+
+.checkbox label{
+  margin-left: 5px;
+}
+
+.input-gender input {
+  margin: 0 5px;
+}
+
+.btn {
+  width: 15%;
+  margin:0 auto;
+  padding: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+  border: none;
+  background-color:black;
+  color: white;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: rgb(7, 107, 7);
+}
